@@ -1,6 +1,6 @@
-var fs = require('fs');
-var http = require('http');
-var file = './JENNIE - SOLO MV.mp4';
+const fs = require('fs');
+const http = require('http');
+const file = './JENNIE - SOLO MV.mp4';
 
 http.createServer((req, res) => {
 
