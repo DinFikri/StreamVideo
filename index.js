@@ -38,4 +38,4 @@ const listStream = new StreamFromArray(list);
 
 listStream.on('data', (chunk) => console.log(chunk));
 
-listStream.on('end', () => console.log('done!'));
+listStream.on('end', () => console.log('Stream is over'));
