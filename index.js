@@ -2,6 +2,8 @@ const fs = require('fs');
 
 const readStream = fs.createReadStream('./JENNIE - SOLO MV.mp4');
 
+// trying to decrase memory usage
+
 readStream.on('data', (chunk) => {
     console.log('size: ', chunk.length)
 });
