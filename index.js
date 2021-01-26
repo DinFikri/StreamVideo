@@ -9,7 +9,7 @@ readStream.on('data', (chunk) => {
 });
 
 readStream.on('end', () => {
-    console.log(('stream is finished'))
+    console.log(('stream has finished'))
 });
 
 readStream.on('error', (err) => {
